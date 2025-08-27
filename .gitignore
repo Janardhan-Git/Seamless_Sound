@@ -1,0 +1,16 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.bat
+
+# Ignore files
+app - Copy (3)
+run_app
+app - Copy
+app - Copy (3)
+
