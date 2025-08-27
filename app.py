@@ -5,6 +5,12 @@ import io, zipfile, time
 from pathlib import Path
 import tempfile
 
+try:
+    import audioop  # For Python < 3.13
+except ImportError:
+    import pyaudioop as audioop  # For Python 3.13+
+
+
 st.set_page_config(page_title="Silence Remover", page_icon="🎵", layout="wide")
 st.title("🎵 Audio Silence Remover")
 
